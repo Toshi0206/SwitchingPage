@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		79A331692070DC7B00500383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A331682070DC7B00500383 /* AppDelegate.swift */; };
-		79A3316B2070DC7B00500383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3316A2070DC7B00500383 /* ViewController.swift */; };
+		79A3316B2070DC7B00500383 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3316A2070DC7B00500383 /* HomeViewController.swift */; };
 		79A3316E2070DC7B00500383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A3316C2070DC7B00500383 /* Main.storyboard */; };
 		79A331702070DC7B00500383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A3316F2070DC7B00500383 /* Assets.xcassets */; };
 		79A331732070DC7B00500383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A331712070DC7B00500383 /* LaunchScreen.storyboard */; };
 		79A3317E2070DC7B00500383 /* SwitchingPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3317D2070DC7B00500383 /* SwitchingPageTests.swift */; };
 		79A331892070DC7B00500383 /* SwitchingPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A331882070DC7B00500383 /* SwitchingPageUITests.swift */; };
+		79A33197207115C400500383 /* CustomNavigationControllerForTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A33196207115C400500383 /* CustomNavigationControllerForTests.swift */; };
+		79A331992071171C00500383 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A331982071171C00500383 /* HomeViewControllerTests.swift */; };
+		79CA1E232072840000C3C109 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA1E222072840000C3C109 /* TransitionButton.swift */; };
+		79CA1E262072983B00C3C109 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA1E252072983B00C3C109 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		79A331652070DC7B00500383 /* SwitchingPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A331682070DC7B00500383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79A3316A2070DC7B00500383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A3316A2070DC7B00500383 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		79A3316D2070DC7B00500383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A3316F2070DC7B00500383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A331722070DC7B00500383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		79A331842070DC7B00500383 /* SwitchingPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchingPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A331882070DC7B00500383 /* SwitchingPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingPageUITests.swift; sourceTree = "<group>"; };
 		79A3318A2070DC7B00500383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A33196207115C400500383 /* CustomNavigationControllerForTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationControllerForTests.swift; sourceTree = "<group>"; };
+		79A331982071171C00500383 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		79CA1E222072840000C3C109 /* TransitionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionButton.swift; sourceTree = "<group>"; };
+		79CA1E252072983B00C3C109 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				79A331682070DC7B00500383 /* AppDelegate.swift */,
-				79A3316A2070DC7B00500383 /* ViewController.swift */,
+				79A3316A2070DC7B00500383 /* HomeViewController.swift */,
+				79CA1E222072840000C3C109 /* TransitionButton.swift */,
 				79A3316C2070DC7B00500383 /* Main.storyboard */,
 				79A3316F2070DC7B00500383 /* Assets.xcassets */,
 				79A331712070DC7B00500383 /* LaunchScreen.storyboard */,
@@ -111,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				79A3317D2070DC7B00500383 /* SwitchingPageTests.swift */,
+				79CA1E252072983B00C3C109 /* UIView+Extensions.swift */,
+				79A331982071171C00500383 /* HomeViewControllerTests.swift */,
+				79A33196207115C400500383 /* CustomNavigationControllerForTests.swift */,
 				79A3317F2070DC7B00500383 /* Info.plist */,
 			);
 			path = SwitchingPageTests;
@@ -262,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A3316B2070DC7B00500383 /* ViewController.swift in Sources */,
+				79CA1E232072840000C3C109 /* TransitionButton.swift in Sources */,
+				79A3316B2070DC7B00500383 /* HomeViewController.swift in Sources */,
 				79A331692070DC7B00500383 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A33197207115C400500383 /* CustomNavigationControllerForTests.swift in Sources */,
+				79A331992071171C00500383 /* HomeViewControllerTests.swift in Sources */,
+				79CA1E262072983B00C3C109 /* UIView+Extensions.swift in Sources */,
 				79A3317E2070DC7B00500383 /* SwitchingPageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +530,7 @@
 				79A3318F2070DC7B00500383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A331902070DC7B00500383 /* Build configuration list for PBXNativeTarget "SwitchingPageTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				79A331922070DC7B00500383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A331932070DC7B00500383 /* Build configuration list for PBXNativeTarget "SwitchingPageUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				79A331952070DC7B00500383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
